@@ -4,8 +4,11 @@ package graph;
  * Classe com metodos voltados para grafos
  * @author Alexandre Velloso
  */
-public interface Graph {
+public abstract class Graph {
     
-    public void addVertex();
-    public void addEdge();
+    public abstract void addEdge();
+    public abstract void addVertex();
+    public abstract void getDegree();
+    public abstract void removeEdge();
+    public abstract void removeVertex();
 }

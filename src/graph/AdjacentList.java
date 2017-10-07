@@ -10,7 +10,7 @@ class Vertex{
  * Implementacao de um grafo usando lista de adjacencia
  * @author Alexandre Velloso
  */
-public class AdjacentList implements Graph{
+public class AdjacentList extends Graph{
     
     private Vertex [] graph;
     
@@ -26,6 +26,21 @@ public class AdjacentList implements Graph{
 
     @Override
     public void addEdge() {
+        
+    }
+
+    @Override
+    public void getDegree() {
+        
+    }
+
+    @Override
+    public void removeEdge() {
+        
+    }
+
+    @Override
+    public void removeVertex() {
         
     }
 }
