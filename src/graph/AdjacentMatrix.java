@@ -9,7 +9,7 @@ package graph;
  * Implementacao de um grafo usando matriz de adjacencia
  * @author Alexandre Velloso
  */
-public class AdjacentMatrix implements Graph{
+public class AdjacentMatrix extends Graph{
     
     int [] graph;
     
@@ -25,6 +25,21 @@ public class AdjacentMatrix implements Graph{
 
     @Override
     public void addEdge() {
+        
+    }
+
+    @Override
+    public void getDegree() {
+        
+    }
+
+    @Override
+    public void removeEdge() {
+        
+    }
+
+    @Override
+    public void removeVertex() {
         
     }
 }
