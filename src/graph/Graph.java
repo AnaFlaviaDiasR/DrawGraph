@@ -6,7 +6,7 @@ package graph;
  */
 public abstract class Graph {
     
-    public abstract void addEdge();
+    public abstract void addEdge(int i, int j);
     public abstract void addVertex();
     public abstract void getDegree();
     public abstract void removeEdge();
